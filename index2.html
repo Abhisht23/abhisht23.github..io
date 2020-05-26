@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <title>Note App</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="name">Make A Note</div>
+            <div id="menubutton">
+               <div id="menubutton"><a id="menulink" href="#">Menu</a></div>
+            </div>
+            <div id="menubutton"><a id="menulink" href="#">&#9776</a></div>
+            <div id="menu" class="hiddenmenu">
+                <div class="menuitem"><a id="home" href="#">Home</a>
+                </div>
+                <div class="menuitem"><a id="about" href="#">About us</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="save"></div>
+        </div>
+        <div id="container">
+            <textarea id="area" rows="10" cols="50"></textarea>
+        <div id="controls">
+    <p><a href="javascript:save();" class="button">Save</a>
+        <a href="javascript:clear();" class="button">Clear</a></p>
+       
+        </div>    
+        </div>
+        <div class="footer">
+        <p>
+    Copyright &copy;2020 | Privacy Policy</p>
+        </div>
+    </div>
+    </body>
+</html>
